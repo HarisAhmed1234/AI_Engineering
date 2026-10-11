@@ -1,0 +1,10 @@
+# Runtime and development dependencies; version pins will be finalized with M4/M6 verification.
+torch
+PyYAML
+pytest
+matplotlib
+numpy
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn[standard]
+

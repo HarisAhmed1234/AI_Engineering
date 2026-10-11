@@ -1,0 +1,7 @@
+# CPU-only dependencies for the small Render/Docker inference service.
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+torch
+fastapi==0.115.12
+starlette==0.46.2
+uvicorn[standard]

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: minigpt-from-scratch
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      # Paste a GitHub Release or shareable Drive direct-download URL in Render.
+      # The service downloads it only if the image has no local checkpoint.
+      - key: CHECKPOINT_URL
+        sync: false
+

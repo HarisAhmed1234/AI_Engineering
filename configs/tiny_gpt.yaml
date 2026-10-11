@@ -1,0 +1,29 @@
+# Tiny GPT default configuration. `vocab_size` is filled from the saved tokenizer.
+seed: 1337
+data_path: data/input.txt
+context_length: 128
+d_model: 128
+n_heads: 4
+n_layers: 4
+ffn_dim: 512
+dropout: 0.1
+position_encoding: sinusoidal
+weight_tying: false
+batch_size: 64
+train_stride: 32
+num_workers: 0
+optimizer: AdamW
+learning_rate: 0.001
+weight_decay: 0.1
+warmup_steps: 100
+# Based on the measured 200-step throughput (298,478 tokens/s), 40,000 steps is
+# expected to take roughly 18-22 minutes including periodic evaluation/sampling.
+max_steps: 40000
+eval_interval: 500
+eval_batches: 20
+grad_clip_norm: 1.0
+mixed_precision: auto
+checkpoint_dir: checkpoints
+log_dir: outputs/logs
+sample_dir: outputs/samples
+

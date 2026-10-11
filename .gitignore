@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated data and artifacts
+data/*.txt
+data/*.json
+checkpoints/*
+!checkpoints/.gitkeep
+# The small, weights-only inference checkpoint may be released deliberately.
+!checkpoints/minigpt_final.pt
+# Full/resume and experimental tuning checkpoints remain local-only.
+checkpoints/best.pt
+checkpoints/last.pt
+checkpoints/tuning*/
+checkpoints/m5_*/
+req.json
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/logs/*
+!outputs/logs/.gitkeep
+outputs/samples/*
+!outputs/samples/.gitkeep
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

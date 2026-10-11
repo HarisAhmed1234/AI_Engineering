@@ -1,0 +1,17 @@
+device,layer,sequence_length,time_ms,memory_mib,memory_measurement
+cpu,RNN,32,1.773900032043457,0.31640625,CPU-profiler allocated MiB per forward
+cpu,SelfAttention,32,2.1159000396728516,0.439453125,CPU-profiler allocated MiB per forward
+cpu,RNN,64,3.1447999477386475,0.62890625,CPU-profiler allocated MiB per forward
+cpu,SelfAttention,64,1.8234000205993652,1.1328125,CPU-profiler allocated MiB per forward
+cpu,RNN,128,5.674099922180176,1.25390625,CPU-profiler allocated MiB per forward
+cpu,SelfAttention,128,2.9986000061035156,3.28125,CPU-profiler allocated MiB per forward
+cpu,RNN,256,10.667799949645996,2.50390625,CPU-profiler allocated MiB per forward
+cpu,SelfAttention,256,5.336100101470947,10.625,CPU-profiler allocated MiB per forward
+cuda,RNN,32,0.6085001230239868,8.7646484375,peak CUDA allocated MiB
+cuda,SelfAttention,32,1.2914999723434448,9.65869140625,peak CUDA allocated MiB
+cuda,RNN,64,0.6279000043869019,17.5146484375,peak CUDA allocated MiB
+cuda,SelfAttention,64,1.3430999517440796,10.22119140625,peak CUDA allocated MiB
+cuda,RNN,128,0.5216000080108643,18.7646484375,peak CUDA allocated MiB
+cuda,SelfAttention,128,1.350100040435791,11.72119140625,peak CUDA allocated MiB
+cuda,RNN,256,0.6233000755310059,21.60009765625,peak CUDA allocated MiB
+cuda,SelfAttention,256,1.2073999643325806,16.22119140625,peak CUDA allocated MiB
