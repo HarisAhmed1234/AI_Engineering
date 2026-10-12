@@ -27,6 +27,7 @@ GENERATED_TEXT_NOTICE = (
     "or inaccurate."
 )
 DEFAULT_CHECKPOINT = "checkpoints/minigpt_final.pt"
+INDEX_HTML_PATH = Path(__file__).resolve().parent.parent / "static" / "index.html"
 
 # Lazy loading keeps /health useful while a hosted checkpoint has not yet been
 # supplied.  The lock prevents two simultaneous first requests loading it twice.
@@ -143,19 +144,11 @@ app = FastAPI(
 )
 
 
-@app.get("/", response_class=HTMLResponse)
-def home() -> str:
-    """Serve a tiny self-contained usage page (Swagger remains at /docs)."""
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+def home() -> HTMLResponse:
+    """Serve the self-contained demo UI (Swagger remains at /docs)."""
 
-    return f"""<!doctype html>
-<html><head><title>MiniGPT from Scratch</title></head>
-<body><h1>MiniGPT from Scratch</h1>
-<p><strong>Notice:</strong> {GENERATED_TEXT_NOTICE}</p>
-<p>Use <a href=\"/docs\">/docs</a> for interactive Swagger documentation.</p>
-<pre>curl -X POST http://localhost:8000/generate \\
-  -H \"Content-Type: application/json\" \\
-  -d '{{"prompt":"ROMEO:","max_new_tokens":80,"temperature":0.8,"top_k":40}}'</pre>
-</body></html>"""
+    return HTMLResponse(INDEX_HTML_PATH.read_text(encoding="utf-8"))
 
 
 @app.get("/health")

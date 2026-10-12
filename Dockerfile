@@ -11,6 +11,7 @@ COPY requirements-api.txt ./
 RUN pip install --no-cache-dir -r requirements-api.txt
 
 COPY app ./app
+COPY static ./static
 COPY src ./src
 COPY checkpoints/.gitkeep ./checkpoints/.gitkeep
 
