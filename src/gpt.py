@@ -5,7 +5,6 @@ from __future__ import annotations
 import math
 from pathlib import Path
 
-import matplotlib.pyplot as plt
 import torch
 from torch import Tensor, nn
 
@@ -118,6 +117,7 @@ def model_summary(model: MiniGPT) -> str:
 
 
 def save_model_summary_figure(model: MiniGPT, output_dir: str | Path = "outputs") -> tuple[Path, Path]:
+    import matplotlib.pyplot as plt
     """Save Figure 5 plus matching terminal-style text evidence."""
     output_root = Path(output_dir)
     figure_path = output_root / "figures" / "fig5_model_summary.png"
