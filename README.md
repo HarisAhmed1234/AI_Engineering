@@ -186,7 +186,7 @@ the same variable with no embedded secret. Local HTTP calls were verified; deplo
 remains manual:
 
 ```text
-LIVE_RENDER_URL_PLACEHOLDER
+https://minigpt-api.onrender.com
 ```
 
 ## Colab
