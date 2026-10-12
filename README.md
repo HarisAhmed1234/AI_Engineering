@@ -116,7 +116,7 @@ For a fresh clone, download the weights-only best-validation checkpoint from the
 project release and place it here:
 
 ```text
-GITHUB_RELEASE_CHECKPOINT_URL_PLACEHOLDER
+https://github.com/HarisAhmed1234/AI_Engineering/releases/download/v1.0/minigpt_final.pt
 checkpoints/minigpt_final.pt
 ```
 
