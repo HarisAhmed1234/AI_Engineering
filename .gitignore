@@ -28,12 +28,20 @@ checkpoints/last.pt
 checkpoints/tuning*/
 checkpoints/m5_*/
 req.json
-outputs/figures/*
-!outputs/figures/.gitkeep
+# Small evidence files are committed so the report, README and Colab demo work.
+# Figures and sample text are small, so everything in them is allowed.
+# Logs: ignore by default, then allow only the small result files.
 outputs/logs/*
 !outputs/logs/.gitkeep
-outputs/samples/*
-!outputs/samples/.gitkeep
+!outputs/logs/ablation_results.csv
+!outputs/logs/ablation_results.md
+!outputs/logs/m5_training_summary.json
+!outputs/logs/m5_training_summary.txt
+!outputs/logs/m5_lr_tuning.txt
+!outputs/logs/fig10_cli.txt
+!outputs/logs/fig10_api.txt
+!outputs/logs/m6_failure_generation_checks.txt
+!outputs/logs/forbidden_api_check.txt
 
 # Editor and OS files
 .DS_Store
