@@ -11,6 +11,7 @@
 - **Google Colab:** [Open the Colab walkthrough](https://colab.research.google.com/drive/1bF2CPcHV34PHYP4P9T-CPHkvKpG9zYR_#scrollTo=I0n1_nZb0hi6)
 - **Medium article:** [Build a Small LLM from Scratch](https://medium.com/@shuzaifaali05/build-a-small-llm-from-scratch-73897648ada1?postPublishedType=initial)
 - **Checkpoint release:** [minigpt_final.pt](https://github.com/HarisAhmed1234/AI_Engineering/releases/download/v1.0/minigpt_final.pt)
+- **Video Demo:** https://github.com/HarisAhmed1234/AI_Engineering/releases/tag/demo-v1.0
 
 ## Repository map
 
