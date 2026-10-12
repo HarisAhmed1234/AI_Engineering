@@ -1,0 +1,21 @@
+M5 fixed sample 1
+Checkpoint: checkpoints/minigpt_final.pt
+Device: cuda
+Seed: 101
+Max new tokens: 200 (terminal word fragment omitted for readability)
+Temperature: 0.8
+Top-k: 40
+Top-p: None
+Greedy: False
+Context length: 128
+Model parameters: 809,984
+Prompt: ROMEO:
+Generated:
+ROMEO:
+My lord, I can forget to France and dry.
+
+BENVOLIO:
+The king executed the third came hither be mine,
+Still undo the busy reducate of his sister,
+Gentle proofs and desperation where it be so,
+If we 

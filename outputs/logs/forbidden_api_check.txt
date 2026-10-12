@@ -1,0 +1,8 @@
+FORBIDDEN API CHECK
+Scope: src/, app/, experiments/
+Patterns: AutoModelForCausalLM; GPT2LMHeadModel; from transformers;
+          nn.MultiheadAttention; nn.Transformer; scaled_dot_product_attention
+Result: NO MATCHES.
+
+Therefore no prohibited API names appeared in executable code, comments, or
+docstrings in the searched directories at the time of this check.

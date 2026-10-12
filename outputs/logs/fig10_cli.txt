@@ -1,0 +1,12 @@
+﻿Checkpoint: checkpoints/minigpt_final.pt
+Device: cuda
+Seed: 7
+Model parameters: 809,984
+Context length: 128
+Temperature: 0.8
+Top-k: 40; Top-p: None; Greedy: False
+Prompt: The future of artificial intelligence
+Generated:
+The future of artificial intelligence
+Of mine arms, he comes in this as he,
+Which is the honour man that I should see

@@ -1,0 +1,31 @@
+ABLATION RUN: heads_4
+max_new_tokens=80; temperature=0.8; top_k=40
+
+seed=101; prompt='ROMEO:'
+ROMEO:
+Sir, madam, nor nor banishment. For thy father!
+Dost thou not so, I return to t
+
+seed=202; prompt='To be, or not to be'
+To be, or not to be with reversed purposed,
+As you say 'twill were the lineal of my brother,
+Answer
+
+seed=303; prompt='KING HENRY:'
+KING HENRY:
+The king is that leaves since so much belly;
+And therefore what fix'd makes my 
+
+seed=404; prompt='First Citizen:'
+First Citizen:
+Your enemy revenges, yet the king's prince,
+Ready back unfury, I can couply in 
+
+seed=505; prompt='O Juliet,'
+O Juliet, and Lady Angelo to the straight that:
+And to the king.
+
+ABHORSON:
+Will, then.
+
+

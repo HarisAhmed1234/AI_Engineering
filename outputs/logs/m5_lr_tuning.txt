@@ -1,0 +1,13 @@
+M5 LEARNING-RATE TUNING NOTE
+
+Both checks used seed 1337, 300 training steps, 100 warmup steps, the same Tiny
+Shakespeare split, and the same model/configuration apart from learning rate.
+
+lr=3e-4: train loss 3.427150; val loss 3.242578; perplexity 25.599643;
+          elapsed 8.624 s; throughput 284,967.96 tokens/s.
+lr=1e-3: train loss 3.018675; val loss 2.515353; perplexity 12.370976;
+          elapsed 7.963 s; throughput 308,632.83 tokens/s.
+
+Selection: lr=1e-3, because it had lower measured validation loss in this matched,
+short tuning check. This is a tuning observation, not evidence that 1e-3 is always
+better at every duration or model scale.

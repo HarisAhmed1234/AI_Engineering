@@ -1,0 +1,104 @@
+RUN 1
+prompt: MONTAGUE:
+Remember MONTAGUE, my lord.
+
+seed: 111
+max_new_tokens: 400
+temperature: 0.8
+top_k: 40
+greedy: False
+Generated:
+MONTAGUE:
+Remember MONTAGUE, my lord.
+
+KING RICHARD III:
+What said Lord Angelo: gave me the bastard the print
+And shroud in thy name; and he will no charmle book.
+
+QUEEN MARGARET:
+Speak no more: therefore, I would not use to thee,
+And then is the my charge in a pierce.
+
+QUEEN MARGARET:
+The beggar to strange on your windows to meet the old
+winder for it.
+
+KING EDWARD IV:
+Bring him off your friend, and for the Volsces
+For the warm and h
+
+RUN 2
+prompt: ROMEO:
+seed: 301
+max_new_tokens: 300
+temperature: 1.0
+top_k: 40
+greedy: True
+Generated:
+ROMEO:
+The gods are the consul?
+
+Nurse:
+No, not a man that shall be so strange as the
+sea and words as the prince that the sea that he was so much
+so better than the strength of the princely seat,
+And then the strength of the state of the state,
+And the strength of the state of the state,
+And the strength
+
+RUN 3
+prompt: ROMEO:
+seed: 301
+max_new_tokens: 300
+temperature: 0.2
+top_k: 40
+greedy: False
+Generated:
+ROMEO:
+And what says you will not?
+
+JULIET:
+Not a little man that I will stand to thee.
+
+Nurse:
+Not a word to see the base that which is the sea
+From the sun and the princes of the strength
+And the sun is a strange to the charge of the prince,
+And the sun of the sin and hour than my father,
+And so did I w
+
+RUN 4
+prompt: KING HENRY:
+seed: 302
+max_new_tokens: 300
+temperature: 1.0
+top_k: 40
+greedy: True
+Generated:
+KING HENRY:
+I am a king, and so strange as the prince
+Where is the strange of the people things
+Of the princess of the state and warm.
+
+KING RICHARD III:
+Then we shall be so that the sea that he should be so.
+
+QUEEN ELIZABETH:
+And therefore the country than the strength
+And the strength of the state of the sta
+
+RUN 5
+prompt: KING HENRY:
+seed: 302
+max_new_tokens: 300
+temperature: 0.2
+top_k: 40
+greedy: False
+Generated:
+KING HENRY:
+I will not stay and the princess of your hearts
+And the seat of the world hath some many of the state,
+And the sun of the princely son and foul of the state,
+And the sea that they are not straight and many hearts
+That they are made to see their suit of their son
+That which heavy so like a strange o

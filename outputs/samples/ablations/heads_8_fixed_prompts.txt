@@ -1,0 +1,28 @@
+ABLATION RUN: heads_8
+max_new_tokens=80; temperature=0.8; top_k=40
+
+seed=101; prompt='ROMEO:'
+ROMEO:
+My lord, my noble rash; and mounter'd your counsel
+Than you be drownright that 
+
+seed=202; prompt='To be, or not to be'
+To be, or not to be wish the world.
+
+ANGELO:
+God forbeard with the matter king; one be more
+than gr
+
+seed=303; prompt='KING HENRY:'
+KING HENRY:
+The king strange lives ready. For heaven you will,
+That it would were father to
+
+seed=404; prompt='First Citizen:'
+First Citizen:
+Your event revenges to your honour. Well, march,
+Iback unfury, I can countenanc
+
+seed=505; prompt='O Juliet,'
+O Juliet, and ere I enter thought that do thee:
+And to thou from this grace didst thou pr

@@ -1,0 +1,32 @@
+ABLATION RUN: heads_2
+max_new_tokens=80; temperature=0.8; top_k=40
+
+seed=101; prompt='ROMEO:'
+ROMEO:
+My lord, my nurse! darest thou hast dry.
+
+BUCKINGHAM:
+And now nor I return him 
+
+seed=202; prompt='To be, or not to be'
+To be, or not to be with rivers able upon.
+
+DUKE OF AUMERLE:
+What? The lies wounds in the gatess, I
+
+seed=303; prompt='KING HENRY:'
+KING HENRY:
+The king with thee, Warwick thy passage of York.
+
+YORK:
+Why, good hook at the c
+
+seed=404; prompt='First Citizen:'
+First Citizen:
+Your enemy revenges to her should be given,
+Ready back upon your children; but 
+
+seed=505; prompt='O Juliet,'
+O Juliet, and Lady Senator:
+How now! what then: and thereof, 'tis his grace
+With our sope

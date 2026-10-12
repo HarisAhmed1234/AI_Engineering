@@ -1,0 +1,1 @@
+﻿{"prompt":"ROMEO:","generated":"ROMEO:\nWhy, she should dishonour to be content.\n\nJULIET:\nAlack, did be command, madam.","model_parameters":809984,"context_length":128,"temperature":0.8,"notice":"Generated text is experimental language-model output and may be incoherent or inaccurate."}

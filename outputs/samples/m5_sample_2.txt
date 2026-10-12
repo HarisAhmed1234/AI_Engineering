@@ -1,0 +1,18 @@
+M5 fixed sample 2
+Checkpoint: checkpoints/minigpt_final.pt
+Device: cuda
+Seed: 202
+Max new tokens: 200 (terminal word fragment omitted for readability)
+Temperature: 0.8
+Top-k: 40
+Top-p: None
+Greedy: False
+Context length: 128
+Model parameters: 809,984
+Prompt: To be, or not to be
+Generated:
+To be, or not to be wise to prove pursuive,
+As you say, this wanted let the wounds about
+Against the tomb! Your honour had slept to plague me
+That the gods and this officers must be king,
+Their creature is no buttered 

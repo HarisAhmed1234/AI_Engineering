@@ -1,0 +1,21 @@
+M5 fixed sample 5
+Checkpoint: checkpoints/minigpt_final.pt
+Device: cuda
+Seed: 505
+Max new tokens: 200 (terminal word fragment omitted for readability)
+Temperature: 0.8
+Top-k: 40
+Top-p: None
+Greedy: False
+Context length: 128
+Model parameters: 809,984
+Prompt: O Juliet,
+Generated:
+O Juliet, anon! I know the court, that
+do come: you might part this fleeter to me to sep,
+And swear to be an honourable to you,
+That the people's purseless constant was
+To hear me with him.
+
+CORIOLANUS:
+I'll 
