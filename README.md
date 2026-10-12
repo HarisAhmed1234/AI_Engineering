@@ -194,6 +194,8 @@ https://minigpt-api.onrender.com
 Open [the Colab notebook](notebooks/colab_demo.ipynb) after uploading/publishing the
 repository. Replace both explicit placeholders in its first configuration cell:
 
+https://colab.research.google.com/drive/1bF2CPcHV34PHYP4P9T-CPHkvKpG9zYR_#scrollTo=I0n1_nZb0hi6
+
 ```text
 COLAB_NOTEBOOK_URL_PLACEHOLDER
 GITHUB_URL_PLACEHOLDER
@@ -228,6 +230,11 @@ Figure 10 is rendering-only and reads the saved real-call logs:
 ```powershell
 python -m experiments.fig10_inference
 ```
+
+## Medium
+
+https://medium.com/@shuzaifaali05/build-a-small-llm-from-scratch-73897648ada1?postPublishedType=initial
+
 
 ## Configuration and measured results
 
